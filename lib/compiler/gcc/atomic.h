@@ -27,6 +27,7 @@ typedef long atomic_long;
 typedef unsigned long atomic_ulong;
 typedef long long atomic_llong;
 typedef unsigned long long atomic_ullong;
+typedef unsigned long int atomic_uintptr_t;
 
 #define ATOMIC_FLAG_INIT	0
 #define ATOMIC_VAR_INIT(VAL)	(VAL)
