@@ -55,7 +55,6 @@ static int irq(void)
 	metal_irq_unregister(1);
 	metal_irq_unregister(2);
 
-	return 0;
 out:
 	metal_set_log_level(mll);
 	if ((err_msg[0] != '\0') && (!rc))
