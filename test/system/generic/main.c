@@ -5,9 +5,12 @@
  */
 
 #include "metal-test.h"
+#include <metal/log.h>
 
 extern int init_system(void);
 extern void metal_generic_default_poll(void);
+
+#include "mt8183_apu/rsc_table.h"
 
 int main(void)
 {
