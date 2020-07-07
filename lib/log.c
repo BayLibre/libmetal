@@ -7,6 +7,7 @@
 #include <stdarg.h>
 #include <stdio.h>
 
+#include <metal/irq.h>
 #include <metal/log.h>
 #include <metal/sys.h>
 
