@@ -51,6 +51,7 @@ uint32_t mt8183_read_reg(uint32_t addr);
 int mt8183_irq_init(void);
 void mt8183_trace_init(void *ptr, ssize_t size, enum metal_log_level level);
 void mt8183_log_handler(enum metal_log_level level, const char *format, ...);
+int mt8183_vprintf(const char *p, va_list args);
 
 #ifndef METAL_INIT_DEFAULTS
 #define METAL_INIT_DEFAULTS				\

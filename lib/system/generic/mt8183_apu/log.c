@@ -16,7 +16,7 @@
 static char *trace_buffer = NULL;
 static ssize_t trace_buffer_size = 0;
 
-static int mt8183_vprintf(const char *p, va_list args)
+int mt8183_vprintf(const char *p, va_list args)
 {
 	int len;
 	unsigned int flags;
